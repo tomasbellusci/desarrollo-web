@@ -53,7 +53,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(black,black, orange);
+    border-bottom: solid 3px black;
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 .titulo{
@@ -61,7 +64,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     color: white;
-    text-shadow: 1px 5px rgb(2, 2, 141);
+    text-shadow: 1px 5px orange;
+    transform: rotate(-5deg);
 }
 
 .subtitulo{
@@ -69,6 +73,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:italic;
     color: white;
+    text-shadow: 1px 5px black;
+    transform: rotate(-5deg);
 }
 
 .novedades{
@@ -359,7 +365,8 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(black,black, orange);
+    border-bottom: solid 3px black;
 }
 
 .titulo{
@@ -367,9 +374,10 @@ a:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     color: white;
-    text-shadow: 1px 5px rgb(2, 2, 141);
+    text-shadow: 1px 5px orange;
     position: relative;
     bottom: 30px;
+    transform: rotate(-5deg);
 }
 
 .subtitulo{
@@ -379,6 +387,8 @@ a:hover{
     color: white;
     position: relative;
     bottom: 30px;
+    text-shadow: 1px 5px black;
+    transform: rotate(-5deg);
 }
 
 .novedades{
