@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='375' height='120' preserveAspectRatio='none' viewBox='0 0 375 120'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1177%26quot%3b)' fill='none'%3e%3cpath d='M373 25L431 83' stroke-width='6' stroke='url(%23SvgjsLinearGradient1178)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M323 105L360 142' stroke-width='10' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M343 87L286 30' stroke-width='10' stroke='url(%23SvgjsLinearGradient1180)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M11 65L86 140' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M255 55L200 0' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M118 72L42 -4' stroke-width='8' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M234 36L314 116' stroke-width='6' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M96 64L151 119' stroke-width='6' stroke='url(%23SvgjsLinearGradient1180)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M131 31L174 74' stroke-width='6' stroke='url(%23SvgjsLinearGradient1182)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M124 98L181 155' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1177'%3e%3crect width='375' height='120' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1178'%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1179'%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1180'%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1181'%3e%3cstop stop-color='rgba(217%2c 0%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(217%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1182'%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
 }
 
 .logo{
@@ -53,10 +54,9 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(black,black, orange);
-    border-bottom: solid 3px black;
     padding-bottom: 20px;
     padding-top: 15px;
+    background-color: black;
 }
 
 .titulo{
@@ -64,8 +64,6 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     color: white;
-    text-shadow: 1px 5px orange;
-    transform: rotate(-5deg);
 }
 
 .subtitulo{
@@ -73,8 +71,6 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:italic;
     color: white;
-    text-shadow: 1px 5px black;
-    transform: rotate(-5deg);
 }
 
 .novedades{
@@ -133,6 +129,17 @@
     background-color: black;
 }
 
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover{
+    color: orange;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
 .contenedorTextosFoo{
     display: flex;
     justify-content: space-evenly;
@@ -171,8 +178,8 @@
     height: 50px;
     width: 50px;
     position: relative;
-    right: 45px;
-    bottom: 40px;
+    right: 50px;
+    bottom: 50px;
 }
 /* index------------------------------------------------ */
 /* pagina de productos-------------------------------- */
@@ -218,6 +225,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='375' height='120' preserveAspectRatio='none' viewBox='0 0 375 120'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1177%26quot%3b)' fill='none'%3e%3cpath d='M373 25L431 83' stroke-width='6' stroke='url(%23SvgjsLinearGradient1178)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M323 105L360 142' stroke-width='10' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M343 87L286 30' stroke-width='10' stroke='url(%23SvgjsLinearGradient1180)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M11 65L86 140' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M255 55L200 0' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M118 72L42 -4' stroke-width='8' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M234 36L314 116' stroke-width='6' stroke='url(%23SvgjsLinearGradient1179)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M96 64L151 119' stroke-width='6' stroke='url(%23SvgjsLinearGradient1180)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3cpath d='M131 31L174 74' stroke-width='6' stroke='url(%23SvgjsLinearGradient1182)' stroke-linecap='round' class='BottomRight'%3e%3c/path%3e%3cpath d='M124 98L181 155' stroke-width='6' stroke='url(%23SvgjsLinearGradient1181)' stroke-linecap='round' class='TopLeft'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1177'%3e%3crect width='375' height='120' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1178'%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1179'%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(4%2c 76%2c 215%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1180'%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1181'%3e%3cstop stop-color='rgba(217%2c 0%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(217%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' id='SvgjsLinearGradient1182'%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(219%2c 123%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
 }
 
 .nav_prod{
@@ -307,8 +315,9 @@
     "novedades novedades novedades"
     "sustanciaA sustanciaB sustanciaC"
     "footer footer footer";
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: 150px 50px 400px 200px 500px 200px;
+    grid-template-columns: repeat(3, 33,33%);
+    grid-template-rows: 150px 50px 400px 200px 500px 270px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2007' height='2264' preserveAspectRatio='none' viewBox='0 0 2007 2264'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1436%26quot%3b)' fill='none'%3e%3crect width='2007' height='2264' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M444.95 0C482.45 3.99 473.17 53.4 502 53.4C531.57 53.4 523.25 4.1 561.76 0C774.25 -22.6 782.88 0 1004 0C1182.6 0 1201.11 -45.31 1361.19 0C1452.11 25.73 1413.95 134.56 1506 142.08C1737.35 160.98 1874.56 -42.84 2008 52.84C2125.56 137.12 2008 277.42 2008 502C2008 753 2008 753 2008 1004C2008 1255 2008 1255 2008 1506C2008 1757 2008 1757 2008 2008C2008 2185.18 2052.14 2362.35 2008 2362.35C1958.02 2362.35 1908.11 2188.04 1819.75 2008C1697.97 1759.86 1721.89 1740.18 1587.72 1506C1565.01 1466.36 1546.16 1484.39 1506 1460.36C1254.3 1309.78 1219.98 1143.56 1004 1156.78C847.29 1166.38 760.61 1364.22 760.61 1506C760.61 1595.4 901.91 1535.33 1004 1619.13C1207.67 1786.33 1262.01 1778.89 1372.13 2008C1476.1 2224.32 1531.84 2374.1 1432.18 2510C1347.78 2625.1 1218.09 2510 1004 2510C753 2510 753 2510 502 2510C251 2510 125.5 2635.5 0 2510C-125.5 2384.5 0 2259 0 2008C0 1757 0 1757 0 1506C0 1333.89 -33.63 1323.78 0 1161.77C18.47 1072.78 104.19 1078.38 104.19 1004C104.19 944.27 14.56 963.69 0 893.56C-37.54 712.69 0 697.78 0 502C0 251 -117.94 133.06 0 0C104.54 -117.94 231.45 -22.71 444.95 0' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M502 1877.04C454.46 1877.04 381.52 1951.32 381.52 2008C381.52 2052.66 449.61 2079.71 502 2079.71C534.54 2079.71 551.38 2046.86 551.38 2008C551.38 1945.53 539.39 1877.04 502 1877.04' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M159.73 0C346.95 119.5 329.01 320.43 502 320.43C679.43 320.43 667.23 123.41 860.57 0C918.23 -36.81 932.29 0 1004 0C1061.93 0 1075.58 -33.41 1119.85 0C1326.58 156.02 1278.08 308.81 1506 378.87C1722.15 445.32 1834.46 230.45 2008 273.02C2085.46 292.02 2008 387.51 2008 502C2008 753 2008 753 2008 1004C2008 1255 2008 1255 2008 1506C2008 1621.04 2037.93 1736.08 2008 1736.08C1973.72 1736.08 1975.24 1589.6 1879.58 1506C1724.24 1370.25 1681.76 1417.89 1506 1297.38C1315.69 1166.89 1283.89 1182.01 1147.43 1004C1032.89 854.6 1097.73 642.56 1004 642.56C896.93 642.56 874.92 823.28 745.83 1004C623.92 1174.68 608.56 1345.36 502 1345.36C406.13 1345.36 449.33 1155.69 340.98 1004C198.33 804.29 132.9 838.21 0 642.56C-37.59 587.21 0 572.28 0 502C0 251 -60.59 190.41 0 0C19.28 -60.59 95.95 -40.71 159.73 0' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M757.11 2008C862.48 1885.7 886.02 1795.89 1004 1795.89C1109.87 1795.89 1160.1 1876.97 1204.8 2008C1281.91 2234.02 1315.3 2340.81 1247.62 2510C1214.9 2591.81 1125.81 2510 1004 2510C753 2510 753 2510 502 2510C251 2510 133.34 2627.66 0 2510C-117.66 2406.19 -107.55 2095.23 0 2067.06C143.45 2029.49 287.09 2395.28 502 2378.52C665.65 2365.75 611.48 2177.02 757.11 2008' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1969.38 502C1987.8 494.77 1992.2 493.19 2008 493.19C2011.51 493.19 2008 497.6 2008 502C2008 753 2008 753 2008 1004C2008 1145.19 2095.84 1263.56 2008 1286.38C1844.84 1328.76 1743.46 1235.78 1506 1134.39C1412.78 1094.59 1346.63 1085.97 1346.63 1004C1346.63 863.9 1377.4 793.91 1506 690.25C1688.78 542.91 1736.8 593.3 1969.38 502' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M962.85 2008C971.45 1982.69 984.34 1972.65 1004 1972.65C1021.65 1972.65 1034.86 1984.28 1037.47 2008C1064.39 2252.95 1078.04 2285.39 1063.06 2510C1061.3 2536.39 1033.53 2510 1004 2510C912.72 2510 826.78 2575.08 821.45 2510C806.21 2324.08 880.17 2251.36 962.85 2008' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 2313.14C94.97 2313.14 295.29 2456.27 295.29 2510C295.29 2554.7 88.59 2569.06 0 2510C-59.06 2470.63 -52.68 2313.14 0 2313.14' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1436'%3e%3crect width='2007' height='2264' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .header{grid-area: header;}
@@ -353,11 +362,13 @@
     color: white;
     text-decoration: none;
     position: relative;
-    top:10px;
+    top: 4px;
 }
 
-a:hover{
+.a_li:hover{
     color: orange;
+    font-size: 26px;
+    transition:all 0.5s;
 }
 
 .box_titulo{
@@ -365,8 +376,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(black,black, orange);
-    border-bottom: solid 3px black;
+    background-color: black;
 }
 
 .titulo{
@@ -374,10 +384,8 @@ a:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     color: white;
-    text-shadow: 1px 5px orange;
     position: relative;
     bottom: 30px;
-    transform: rotate(-5deg);
 }
 
 .subtitulo{
@@ -387,8 +395,6 @@ a:hover{
     color: white;
     position: relative;
     bottom: 30px;
-    text-shadow: 1px 5px black;
-    transform: rotate(-5deg);
 }
 
 .novedades{
@@ -443,8 +449,26 @@ a:hover{
     border: solid 2px gray;
 }
 
+.imgNovedades:hover{
+    transition:all 0.5s;
+    height: 350px;
+    width: 350px;
+    border: solid 2px orange;
+}
+
 .footer{
     background-color: black;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover{
+    color: orange;
+    font-size: 26px;
+    transition: all 0.5s;
 }
 
 .contenedorTextosFoo{
@@ -455,7 +479,7 @@ a:hover{
 }
 
 .textoFoo{
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -468,12 +492,18 @@ a:hover{
 }
 
 .rss{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     position: relative;
     left: 450px;
     top: 30px;
     row-gap: 10px;
+}
+
+.rss:hover{
+    transition: all 0.5s;
+    height: 40px;
+    width: 40px;
 }
 
 .boxMapa{
@@ -485,8 +515,14 @@ a:hover{
     height: 100px;
     width: 100px;
     position: relative;
-    right: 380px;
-    bottom: 50px;
+    right: 390px;
+    bottom: 90px;
+}
+
+.mapa:hover{
+    transition: all 0.5s;
+    height: 110px;
+    width: 180px;
 }
 /* index fin------------------------------------------------------ */
 /* pagina productos desktop ------------------------------------*/
@@ -503,7 +539,8 @@ a:hover{
     "prod9 prod10 prod11 prod12 "
     "footer footer footer footer";
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 150px 50px 300px 200px repeat(3, 500px) 200px;
+    grid-template-rows: 150px 50px 300px 200px repeat(3, 500px) 270px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2007' height='4264' preserveAspectRatio='none' viewBox='0 0 2007 4264'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1438%26quot%3b)' fill='none'%3e%3crect width='2007' height='4264' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1004 908.79C951.45 908.79 920.33 960.25 920.33 1004C920.33 1040.73 955.9 1069.74 1004 1069.74C1108.17 1069.74 1224.88 1043.38 1224.88 1004C1224.88 962.9 1103.72 908.79 1004 908.79' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1004 2471.38C990.73 2471.38 971.61 2490.99 971.61 2510C971.61 2528.23 990.61 2545.86 1004 2545.86C1014.9 2545.86 1020.19 2528.04 1020.19 2510C1020.19 2490.8 1015.02 2471.38 1004 2471.38' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M502 2856.62C421.45 2856.62 342.83 2945.47 342.83 3012C342.83 3066.09 421.97 3097.87 502 3097.87C585.22 3097.87 669.33 3066.48 669.33 3012C669.33 2945.86 584.7 2856.62 502 2856.62' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M502 3869.35C279.41 3921.52 66.93 3945.09 66.93 4016C66.93 4086.4 280.89 4141.19 502 4151.96C749.42 4164.01 755.79 4116.48 1004 4061.64C1063.46 4048.5 1117.35 4059.88 1117.35 4016C1117.35 3927.25 1104.79 3820.4 1004 3796.38C797.12 3747.08 747.94 3811.71 502 3869.35' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 340.06C127.2 152.29 152.29 127.2 340.06 0C403.29 -42.83 421.03 0 502 0C621.53 0 641.47 -49.79 741.05 0C892.47 75.71 879.21 119.21 1004 251C1116.87 370.21 1216.38 383.82 1216.38 502C1216.38 604.52 1103.05 590.14 1004 692.41C859.95 841.14 730.18 860.83 730.18 1004C730.18 1124.19 861.32 1119.67 1004 1219.14C1221.34 1370.67 1450.22 1333.11 1450.22 1506C1450.22 1722.42 1234.43 1764.74 1004 1997.76C986.22 2015.74 970.15 1988.85 953.8 2008C751.53 2244.97 767.21 2266.07 566.77 2510C541.31 2540.98 531.2 2530.16 502 2557.81C266.18 2781.16 267.64 2783.29 36.73 3012C16.64 3031.9 10.43 3055.03 0 3055.03C-7.93 3055.03 0 3033.52 0 3012C0 2761 0 2761 0 2510C0 2259 0 2259 0 2008C0 1757 0 1757 0 1506C0 1255 0 1255 0 1004C0 753 0 753 0 502C0 421.03 -42.83 403.29 0 340.06' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1718.11 502C1665.44 279.98 1709.71 182.19 1814.92 0C1854.65 -68.81 1981.18 -69.72 2008 0C2077.72 181.28 2008 251 2008 502C2008 657.92 2069.28 813.85 2008 813.85C1924.33 813.85 1761.98 686.9 1718.11 502' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1589.67 1506C1589.67 1367.3 1872.85 1232.18 2008 1232.18C2082.02 1232.18 2008 1369.09 2008 1506C2008 1648.07 2083.25 1790.15 2008 1790.15C1874.08 1790.15 1589.67 1646.29 1589.67 1506' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1222.61 2510C1341.19 2305.44 1323.52 2165.77 1506 2128.04C1716.22 2084.57 1814.39 2200.28 2008 2347.59C2065.39 2391.26 2008 2428.8 2008 2510C2008 2557.6 2031.7 2565.37 2008 2605.21C1882.37 2816.37 1709.34 2822.29 1709.34 3012C1709.34 3166.12 1910.99 3129.82 2008 3292.88C2060.32 3380.82 2008 3403.44 2008 3514C2008 3627.26 2079.79 3670.9 2008 3740.51C1828.79 3914.29 1710.6 4056.18 1506 4000.79C1292.26 3942.92 1307.12 3773.47 1171.33 3514C1056.12 3293.84 1088.66 3277.37 1004 3041.53C998.56 3026.37 991.13 3026.08 991.13 3012C991.13 3002.35 999.38 3004.08 1004 2994.07C1115.12 2753.08 1090.19 2738.45 1222.61 2510' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M229.49 3514C229.49 3393.81 357.79 3263 502 3263C670.68 3263 855.26 3394.9 855.26 3514C855.26 3627.57 672.13 3728.34 502 3728.34C359.25 3728.34 229.49 3626.48 229.49 3514' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M131.67 4518C131.67 4454.2 299.3 4350.86 502 4282.69C735.46 4204.17 761.15 4286.31 1004 4224.62C1263.15 4158.8 1264.93 4003.46 1506 4027.67C1766.93 4053.87 1819.26 4141.1 2008 4325.45C2070.26 4386.27 2077.58 4491.31 2008 4518C1826.58 4587.58 1757 4518 1506 4518C1255 4518 1255 4518 1004 4518C753 4518 753 4518 502 4518C316.84 4518 131.67 4571.85 131.67 4518' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1894.87 502C1882.74 266.96 1922.62 236.06 1975.82 0C1979.19 -14.94 2007.03 -15.12 2008 0C2023.12 235.88 2008 251 2008 502C2008 562.85 2031.91 623.7 2008 623.7C1975.35 623.7 1898.83 578.81 1894.87 502' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 634.11C146.19 561.02 321.04 629.05 502 753C591.05 814 540.03 879.2 540.03 1004C540.03 1088.36 549.88 1103 502 1171.33C373.99 1354 279.12 1307.22 188.25 1506C87.88 1725.55 191.74 1778.36 119.52 2008C97.62 2077.63 36.7 2104.54 0 2104.54C-23.06 2104.54 0 2056.27 0 2008C0 1757 0 1757 0 1506C0 1255 0 1255 0 1004C0 819.06 -104.81 686.52 0 634.11' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M654.12 1506C654.12 1418.1 835.85 1368.55 1004 1368.55C1117.7 1368.55 1217.81 1423.16 1217.81 1506C1217.81 1609.7 1125.18 1741.63 1004 1741.63C843.34 1741.63 654.12 1604.64 654.12 1506' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1938.28 1506C1938.28 1482.88 1985.48 1460.36 2008 1460.36C2020.34 1460.36 2008 1483.18 2008 1506C2008 1529.68 2020.54 1553.36 2008 1553.36C1985.68 1553.36 1938.28 1529.38 1938.28 1506' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1425.03 2510C1437.08 2445.01 1452.98 2400.87 1506 2400.87C1598.05 2400.87 1708.3 2415.67 1715.17 2510C1730.54 2721.24 1483.59 2799.03 1550.48 3012C1630 3265.18 1802.68 3217.01 2008 3442.29C2031.44 3468.01 2008 3478.15 2008 3514C2008 3550.73 2039.98 3580.68 2008 3587.46C1788.98 3633.92 1734.83 3649.7 1506 3620.48C1447.22 3612.97 1444.36 3576.12 1432.79 3514C1387.69 3271.88 1394.59 3263.14 1392.65 3012C1390.71 2761.14 1380.41 2750.58 1425.03 2510' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M408.77 3514C408.77 3472.88 452.66 3428.13 502 3428.13C559.7 3428.13 622.85 3473.25 622.85 3514C622.85 3552.85 560.2 3587.33 502 3587.33C453.16 3587.33 408.77 3552.48 408.77 3514' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3cpath d='M337.41 4518C337.41 4489.64 408.84 4431.64 502 4413.42C742.14 4366.45 753.98 4410.99 1004 4387.61C1255.98 4364.05 1261.27 4292.78 1506 4319.53C1763.27 4347.66 1766.36 4401.84 2008 4497.37C2017.36 4501.07 2017.91 4517.59 2008 4518C1766.91 4527.91 1757 4518 1506 4518C1255 4518 1255 4518 1004 4518C753 4518 753 4518 502 4518C419.71 4518 337.41 4541.93 337.41 4518' stroke='rgba(70%2c 70%2c 70%2c 0.08)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1438'%3e%3crect width='2007' height='4264' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .header_prod{grid-area: header;}
@@ -546,7 +583,13 @@ a:hover{
     color: white;
     text-decoration: none;
     position: relative;
-    top:10px;
+    top:4px;
+}
+
+.a_li_prod:hover{
+    color: orange;
+    font-size: 26px;
+    transition:all 0.5s;
 }
 
 .box_productos{
@@ -594,12 +637,19 @@ a:hover{
 .img_prod{
     width: 300px;
     height: 300px;
-    border: solid 1px gray;
+    border: solid 2px gray;
+}
+
+.img_prod:hover{
+    transition:all 0.5s;
+    height: 350px;
+    width: 350px;
+    border: solid 2px orange;
 }
 
 .texto_prod{
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
     top: 20px;
     font-family: 'Oswald', sans-serif;
@@ -607,6 +657,17 @@ a:hover{
 
 .footer_prod{
     background-color: black;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover{
+    color: orange;
+    font-size: 21px;
+    transition: all 0.5s;
 }
 
 
