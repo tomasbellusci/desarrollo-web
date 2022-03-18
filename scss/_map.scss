@@ -1,0 +1,12 @@
+
+$estiloTitulos: (
+    tFuente:50px,
+    fStyle: italic,
+    colorWhite: white
+);
+
+.titulo{
+    font-size: map-get($estiloTitulos, tFuente );
+    font-style: map-get($estiloTitulos, fStyle ) ;
+    color: map-get($estiloTitulos, colorWhite ) ;
+}

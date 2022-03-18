@@ -1,0 +1,13 @@
+.boton_contacto{
+    color: orange;
+    background-color: black;
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.boton{
+    @extend .boton_contacto;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}

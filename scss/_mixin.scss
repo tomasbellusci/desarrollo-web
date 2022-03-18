@@ -1,0 +1,9 @@
+@mixin navColor{
+    background-color: black;
+    border-top: solid 2px orange;
+    border-bottom: solid 2px orange;
+}
+
+.nav{
+    @include navColor;
+}
